@@ -1,0 +1,10 @@
+# var  my_firstName ="john";
+ans-this is valid.
+
+#var _myLastNames$ ="vivek";
+ans-this is valid.
+
+#var 123myAge=25;
+ans-this is not valid.
+#var $cityName="New york";
+ans -this is valid.

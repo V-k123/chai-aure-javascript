@@ -1,10 +1,48 @@
-# var  my_firstName ="john";
-ans-this is valid.
+# data types are the define the type of values that a variable  can hold.
 
-#var _myLastNames$ ="vivek";
-ans-this is valid.
+# types of primitive datatypes
+a-Number:Reprsent numeric value  ,including integers and floating point  number.
 
-#var 123myAge=25;
-ans-this is not valid.
-#var $cityName="New york";
-ans -this is valid.
+# string : Reprsent a sequence of character  enclosed in single or double quotes.
+
+# Boolean :Reprsent a logical entity with two values : true or false.
+
+# undefined: Reprsent the abscence of  a value or an uninitialized variable.
+example:- 
+# what is the difference  between null and undefined;
+ans- think you a hava a variable as a box .when we say a box h as null inside ,it like having an empty box .the box exist ,but there nothing valuable or meaningful inside it.
+undefined-
+you have  a gift box  and untill you open it you dont,t know what's inside right now it,s undefined you haven,t checked or filled  it with anything yet.
+# what is the purpose of  type of operator in javascript.
+ans-var myName="vivek";
+console.log(myName);
+console.log(typeof myName);
+# explain the concept of the truthy and falsy values in javascript .provide example.
+ans-In javascript , values are either considered "truthy" or "falsy" when evaluted in a Boolean context.
+
+ # truthy values are treated  as a true when used in condition .exmple includes:
+true,
+any non-empty string("hello")
+Any non zero number (42)
+Arrays and objects ,even if they are not empty
+
+falsy values are treated as false in  Boolean context.exmple includes:
+false 
+0
+..(an empty string)
+null
+undefined
+NaN (Not a number)
+# TODO Key difference :
+parseInt is used for converting to integers and ignores anything after the decimal point .
+parsefloat is used for converting to floating-point numbers ,preserving the decimal part. both function will attempt to convert as m uch of the strings as possible untill an invalid character is encountered.
+
+# when we will not get an output-
+console.log(parseInt("&123"));
+output -NaN
+NaN (input can,t be converted to an integer)
+
+
+// what is the purpose of the NaN value in javascript
+NaN Stands for "Not a number" and is returned when a mathematical operation doesn't yield  a valid number.
+Also  to check wheather    a  value is  number or not we can use  isNaN() function.

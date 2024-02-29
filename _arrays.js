@@ -243,3 +243,17 @@ console.log(resu1)
 const names4=["ram","bhart","laxman"];
 const prefixed=names4.map((curName)=> `Mr.${curName}`);
 console.log(prefixed);
+
+
+//reduced  method 
+// Array.reduce(function callback(accumulator,currentValue,index,array){
+//   //your logic here
+//   //return the updated accumulator value
+// },intialValue)
+
+
+const  product4=[100,200,300,400,500];
+const totalPrice =product4.reduce((accu,curElem)=>{
+return accu + curElem
+;},0)
+console.log(totalPrice);

@@ -1,5 +1,0 @@
-# in javascript ,the + sign is not only used for arithmetic addition but also for string concatenation .when the + operator is used with Strings, it concatenates the strings together .it important to note that if any operand of the + operator is a stirng , javascript will treat the other operands as strings as well,resulting in string concatenation .if  both operands are numbers ,the + operator performs numeric adding
-# type coercion is the automatic conversion of "values" from one data type to another.
-it is a fundamental part of javascript and can be used to make code more redable and efficient.
-there are two types of coericon in javascript implicit and explicit .implicit coercion is done manually by the programmer.
-
